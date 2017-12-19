@@ -1,0 +1,2 @@
+# LToken
+LToken basic contract
