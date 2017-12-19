@@ -57,4 +57,8 @@ contract LToken {
     return true;
   }
   
+ function getBalance(address addr) constant returns (uint balance) {
+        return balanceOf[addr];
+  }
+  
 }
